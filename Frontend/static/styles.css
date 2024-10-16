@@ -8,7 +8,7 @@ h2 {
 }
 
 .container {
-    width: 30%;
+    width: 22%;
     margin: 0 auto;
     padding: 20px;
     background-color: bisque;
@@ -49,4 +49,28 @@ select {
     width: 200px;
     margin-right: 15px;
     /* Breite der Eingabefelder */
+}
+
+
+.Textfeld {
+    margin: 20px 0;
+}
+
+#ticketfeld {
+    width: 85%;
+    /* Feste Breite */
+    height: 150px;
+    /* Feste Höhe */
+    padding: 10px;
+    /* Innenabstand */
+    border: 1px solid #ccc;
+    /* Rahmen */
+    border-radius: 4px;
+    /* Abgerundete Ecken */
+    font-family: Arial, sans-serif;
+    /* Schriftart */
+    font-size: 14px;
+    /* Schriftgröße */
+    resize: none;
+    /* Verhindert das Verändern der Größe */
 }
