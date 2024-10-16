@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+}
+
+h2 {
+    color: blue;
+}
+
+.container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: bisque;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.toptext {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.formular {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+    /* Flexbox für die Zeile */
+    align-items: center;
+    margin-bottom: 10px;
+    /* Vertikale Ausrichtung */
+}
+
+label {
+    margin-right: 8px;
+    /* Abstand zwischen Label und Input/Select */
+}
+
+input,
+select {
+    padding: 3px;
+    border: 1px solid #ccc;
+    /* Korrektur: border muss solid sein */
+    border-radius: 2px;
+    width: 200px;
+    margin-right: 15px;
+    /* Breite der Eingabefelder */
+}

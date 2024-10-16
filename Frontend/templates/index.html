@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ticketformular</title>
+        <link rel="stylesheet"
+            href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="toptext">
+                <h2>Ticket</h2>
+                <p>Bitte alle Felder ausfüllen</p>
+            </div>
+            <div class="formular">
+                <form>
+                    <div class="row">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="row">
+                        <label for="station">Station:</label>
+                        <select id="station" name="station">
+                            <option value disabled selected>-- Wählen
+                                --</option>
+                            <option value="Station1">Station 1</option>
+                            <option value="Station2">Station 2</option>
+                            <option value="Station3">Station 3</option>
+                        </select>
+                        <label for="fehler">Fehler:</label>
+                        <select name="fehler" id="fehler">
+                            <option value disabled selected>-- Wählen
+                                --</option>
+                            <option value="Fehler1">Fehler 1</option>
+                            <option value="Fehler2">Fehler 2</option>
+                            <option value="Fehler3">Fehler 3</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--<select id="farbe" name="farbe">
+    <optgroup label="Hauptfarben">
+        <option value="rot">Rot</option>
+        <option value="blau">Blau</option>
+        <option value="grün">Grün</option>
+    </optgroup>
+    <optgroup label="Sekundärfarben">
+        <option value="gelb">Gelb</option>
+        <option value="orange">Orange</option>
+        <option value="lila">Lila</option>
+    </optgroup>
+</select>
+-->
